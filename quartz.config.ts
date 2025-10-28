@@ -2,13 +2,13 @@ import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
 /**
- * Quartz 4 Configuration
+ * Dev Docs Configuration
  *
  * See https://quartz.jzhao.xyz/configuration for more information.
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Dev Docs",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
