@@ -11,10 +11,10 @@ Dev Docs là một tài liệu kỹ thuật được thiết kế để:
 
 ## Nội dung
 
-- [[Git Introduction]] - Tìm hiểu về Git
-- [[Docker Basics]] - Hướng dẫn cơ bản về Docker
-- [[Next Steps]] - Bước tiếp theo
+- [[git-introduction]] - Tìm hiểu về Git
+- [[docker-basics]] - Hướng dẫn cơ bản về Docker
+- [[next-steps]] - Bước tiếp theo
 
 ## Bắt đầu
 
-Để bắt đầu với Dev Docs, hãy xem [[Next Steps|Bước tiếp theo]].
+Để bắt đầu với Dev Docs, hãy xem [[next-steps|Bước tiếp theo]].

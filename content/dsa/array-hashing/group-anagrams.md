@@ -139,9 +139,9 @@ def groupAnagrams(strs: list[str]) -> list[list[str]]:
   - Chọn cách nào tùy vào độ dài chuỗi và yêu cầu tối ưu
 - **Hash Map là chìa khóa:** Cho phép nhóm các phần tử dựa trên một thuộc tính chung (chữ ký) một cách hiệu quả O(1) cho mỗi tra cứu
 - **Liên kết tới các bài liên quan:**
-  - [[Valid Anagram]] - Kiểm tra hai chuỗi có phải anagram không (dùng cùng nguyên lý)
-  - [[Contains Duplicate]] - Cũng dùng hash map để nhóm/tìm phần tử
-  - [[Top K Frequent Elements]] - Nhóm và đếm tần suất
+  - [[valid-anagram]] - Kiểm tra hai chuỗi có phải anagram không (dùng cùng nguyên lý)
+  - [[contains-duplicate]] - Cũng dùng hash map để nhóm/tìm phần tử
+  - [[top-k-frequent-elements]] - Nhóm và đếm tần suất
 
 ## ✅ Ví dụ minh họa
 

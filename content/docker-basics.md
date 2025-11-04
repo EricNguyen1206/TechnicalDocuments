@@ -44,5 +44,5 @@ CMD ["npm", "start"]
 
 ## Liên kết
 
-- Xem lại [[Git Introduction]]
-- Tiếp tục với [[Next Steps]]
+- Xem lại [[git-introduction]]
+- Tiếp tục với [[next-steps]]

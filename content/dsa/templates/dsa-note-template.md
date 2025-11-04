@@ -48,9 +48,9 @@ def twoSum(nums: list[int], target: int) -> list[int]:
 - Giải thích các lựa chọn cấu trúc dữ liệu.  
 - Nêu ưu điểm và hạn chế của phương pháp.  
 - Liên kết tới các bài liên quan:
-  - [[Valid Anagram]]
-  - [[Group Anagrams]]
-  - [[Top K Frequent Elements]]
+  - [[valid-anagram]]
+  - [[group-anagrams]]
+  - [[top-k-frequent-elements]]
 
 ## ✅ Ví dụ minh họa
 **Input:**  

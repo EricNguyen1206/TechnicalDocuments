@@ -31,5 +31,5 @@ git status              # Kiểm tra trạng thái
 
 ## Liên kết
 
-- Xem thêm về [[Docker Basics]]
-- Đọc tiếp [[Next Steps]]
+- Xem thêm về [[docker-basics]]
+- Đọc tiếp [[next-steps]]

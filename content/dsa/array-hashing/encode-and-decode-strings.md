@@ -190,8 +190,8 @@ class Solution:
 - **Xử lý chuỗi rỗng:** Chuỗi rỗng được mã hóa thành `"0#"`, khi giải mã sẽ đọc 0 ký tự → chuỗi rỗng
 - **Độ phức tạp:** Cả encode và decode đều là O(n) với n là tổng độ dài tất cả chuỗi, đây là tối ưu vì phải duyệt qua tất cả ký tự
 - **Liên kết tới các bài liên quan:**
-  - [[Valid Anagram]] - Cũng xử lý chuỗi và ký tự
-  - [[Group Anagrams]] - Xử lý danh sách chuỗi
+  - [[valid-anagram]] - Cũng xử lý chuỗi và ký tự
+  - [[group-anagrams]] - Xử lý danh sách chuỗi
 
 ## ✅ Ví dụ minh họa
 

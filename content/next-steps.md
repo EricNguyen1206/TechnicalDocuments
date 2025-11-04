@@ -45,8 +45,8 @@ podman run --rm -p 8080:8080 quartz
 
 ## Khám phá
 
-- [[Git Introduction|Học về Git]]
-- [[Docker Basics|Tìm hiểu Docker]]
+- [[git-introduction|Học về Git]]
+- [[docker-basics|Tìm hiểu Docker]]
 
 ---
 

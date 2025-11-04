@@ -177,9 +177,9 @@ def longestConsecutive(nums: list[int]) -> int:
 - **So sánh với sắp xếp:** Sắp xếp mất O(n log n), nhưng cách này chỉ cần O(n) nhờ hash set.
 - **Hash Set là chìa khóa:** Cho phép tra cứu `num-1` và `num+1` trong O(1), giúp đạt O(n) tổng thể.
 - **Liên kết tới các bài liên quan:**
-  - [[Contains Duplicate]] - Cũng dùng hash set để kiểm tra sự tồn tại
-  - [[Two Sum]] - Dùng hash map để tra cứu nhanh
-  - [[Group Anagrams]] - Nhóm các phần tử dựa trên đặc điểm chung
+  - [[contains-duplicate]] - Cũng dùng hash set để kiểm tra sự tồn tại
+  - [[two-sum]] - Dùng hash map để tra cứu nhanh
+  - [[group-anagrams]] - Nhóm các phần tử dựa trên đặc điểm chung
 
 ## ✅ Ví dụ minh họa
 

@@ -125,9 +125,9 @@ def isAnagram(s: str, t: str) -> bool:
 - **Tối ưu bộ nhớ:** Hash map chỉ cần lưu tối đa 26 ký tự (a-z), nên độ phức tạp bộ nhớ là O(1) thay vì O(n)
 - **Cách tiếp cận khác:** Có thể dùng mảng cố định 26 phần tử thay vì hash map (tối ưu hơn một chút về bộ nhớ)
 - **Liên kết tới các bài liên quan:**
-  - [[Group Anagrams]] - Ứng dụng kiểm tra anagram để nhóm các từ
-  - [[Contains Duplicate]] - Cũng dùng hash map để đếm tần suất
-  - [[Top K Frequent Elements]] - Đếm tần suất và sắp xếp
+  - [[group-anagrams]] - Ứng dụng kiểm tra anagram để nhóm các từ
+  - [[contains-duplicate]] - Cũng dùng hash map để đếm tần suất
+  - [[top-k-frequent-elements]] - Đếm tần suất và sắp xếp
 
 ## ✅ Ví dụ minh họa
 
