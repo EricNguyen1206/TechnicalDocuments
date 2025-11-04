@@ -1,6 +1,6 @@
 ---
 title: Valid Anagram
-tags: [dsa, array, hashing, string, #topic/dsa]
+tags: [dsa, array, hashing, string, "#topic/dsa"]
 date: 2024-12-19
 difficulty: Easy
 source: neetcode

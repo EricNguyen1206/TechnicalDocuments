@@ -1,6 +1,6 @@
 ---
 title: {{title}}
-tags: [dsa, array, hashing, #topic/dsa]
+tags: [dsa, array, hashing, "#topic/dsa"]
 date: {{date}}
 difficulty: {{difficulty}}
 source: neetcode
