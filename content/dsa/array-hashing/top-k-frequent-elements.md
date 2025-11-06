@@ -1,6 +1,6 @@
 ---
 title: Top K Frequent Elements
-tags: [dsa, array, hashing, sorting, heap, "#topic/dsa"]
+tags: [dsa, array, hashing, sorting, heap, medium, "#topic/dsa"]
 date: 2024-12-19
 difficulty: Medium
 source: neetcode

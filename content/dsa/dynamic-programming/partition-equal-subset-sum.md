@@ -1,6 +1,6 @@
 ---
 title: Partition Equal Subset Sum
-tags: [dsa, dynamic-programming, knapsack, "#topic/dsa"]
+tags: [dsa, dynamic-programming, knapsack, medium, "#topic/dsa"]
 date: 2024-12-19
 difficulty: Medium
 source: neetcode

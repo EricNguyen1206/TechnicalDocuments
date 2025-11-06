@@ -1,6 +1,6 @@
 ---
 title: Maximum Product Subarray
-tags: [dsa, dynamic-programming, array, "#topic/dsa"]
+tags: [dsa, dynamic-programming, array, medium, "#topic/dsa"]
 date: 2024-12-19
 difficulty: Medium
 source: neetcode

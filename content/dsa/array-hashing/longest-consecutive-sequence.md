@@ -1,6 +1,6 @@
 ---
 title: Longest Consecutive Sequence
-tags: [dsa, array, hashing, union-find, "#topic/dsa"]
+tags: [dsa, array, hashing, union-find, medium, "#topic/dsa"]
 date: 2024-12-19
 difficulty: Medium
 source: neetcode

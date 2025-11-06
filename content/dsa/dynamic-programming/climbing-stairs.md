@@ -1,6 +1,6 @@
 ---
 title: Climbing Stairs
-tags: [dsa, dynamic-programming, "#topic/dsa"]
+tags: [dsa, dynamic-programming, easy, "#topic/dsa"]
 date: 2024-12-19
 difficulty: Easy
 source: neetcode

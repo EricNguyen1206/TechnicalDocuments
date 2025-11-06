@@ -1,6 +1,6 @@
 ---
 title: Coin Change
-tags: [dsa, dynamic-programming, "#topic/dsa"]
+tags: [dsa, dynamic-programming, medium, "#topic/dsa"]
 date: 2024-12-19
 difficulty: Medium
 source: neetcode

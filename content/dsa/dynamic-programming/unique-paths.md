@@ -1,6 +1,6 @@
 ---
 title: Unique Paths
-tags: [dsa, dynamic-programming, math, "#topic/dsa"]
+tags: [dsa, dynamic-programming, math, medium, "#topic/dsa"]
 date: 2024-12-19
 difficulty: Medium
 source: neetcode

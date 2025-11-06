@@ -1,6 +1,6 @@
 ---
 title: Longest Increasing Subsequence
-tags: [dsa, dynamic-programming, binary-search, "#topic/dsa"]
+tags: [dsa, dynamic-programming, binary-search, medium, "#topic/dsa"]
 date: 2024-12-19
 difficulty: Medium
 source: neetcode

@@ -1,6 +1,6 @@
 ---
 title: Word Break
-tags: [dsa, dynamic-programming, string, "#topic/dsa"]
+tags: [dsa, dynamic-programming, string, medium, "#topic/dsa"]
 date: 2024-12-19
 difficulty: Medium
 source: neetcode

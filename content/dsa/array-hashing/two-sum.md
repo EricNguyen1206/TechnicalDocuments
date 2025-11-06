@@ -1,6 +1,6 @@
 ---
 title: Two Sum
-tags: [dsa, array, hashing, "#topic/dsa"]
+tags: [dsa, array, hashing, easy, "#topic/dsa"]
 date: 2024-12-19
 difficulty: Easy
 source: neetcode

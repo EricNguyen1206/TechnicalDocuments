@@ -1,6 +1,6 @@
 ---
 title: Product of Array Except Self
-tags: [dsa, array, prefix-sum, "#topic/dsa"]
+tags: [dsa, array, prefix-sum, medium, "#topic/dsa"]
 date: 2024-12-19
 difficulty: Medium
 source: neetcode

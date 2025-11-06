@@ -1,6 +1,6 @@
 ---
 title: Encode and Decode Strings
-tags: [dsa, array, string, encoding, "#topic/dsa"]
+tags: [dsa, array, string, encoding, medium, "#topic/dsa"]
 date: 2024-12-19
 difficulty: Medium
 source: neetcode
