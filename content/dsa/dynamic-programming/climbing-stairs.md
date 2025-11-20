@@ -76,18 +76,8 @@ Công thức: `dp[n] = dp[n-1] + dp[n-2]`
 
 **Cách 1: Bottom-up DP với mảng**
 
-'''python
+```python
 def climbStairs(n: int) -> int:
-    """
-    Tính số cách leo cầu thang n bước.
-    Sử dụng bottom-up DP.
-    
-    Args:
-        n: Số bước cần leo
-    
-    Returns:
-        Số cách khác nhau để leo lên đỉnh
-    """
     if n <= 2:
         return n
     
@@ -101,15 +91,12 @@ def climbStairs(n: int) -> int:
         dp[i] = dp[i-1] + dp[i-2]
     
     return dp[n]
-'''
+```
 
 **Cách 2: Space-optimized (tối ưu nhất - khuyến nghị)**
 
-'''python
+```python
 def climbStairs(n: int) -> int:
-    """
-    Phiên bản tối ưu bộ nhớ: chỉ dùng O(1) space.
-    """
     if n <= 2:
         return n
     
@@ -121,12 +108,12 @@ def climbStairs(n: int) -> int:
         prev, curr = curr, prev + curr
     
     return curr
-'''
+```
 
 **Cách 3: Recursion + Memoization**
 
-'''python
-def climbStairs(n: int) -> int:
+```python
+  def climbStairs(n: int) -> int:
     """
     Sử dụng recursion với memoization.
     """
@@ -141,7 +128,7 @@ def climbStairs(n: int) -> int:
         return memo[i]
     
     return dp(n)
-'''
+```
 
 ## 🧠 Ghi chú
 

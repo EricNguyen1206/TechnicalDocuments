@@ -74,7 +74,7 @@ Cho một mảng số nguyên không rỗng `nums`, xác định xem mảng có 
 
 ## 💻 Code minh họa
 
-'''python
+```python
 def canPartition(nums: list[int]) -> bool:
     """
     Kiểm tra xem mảng có thể chia thành hai tập con có tổng bằng nhau không.
@@ -106,11 +106,11 @@ def canPartition(nums: list[int]) -> bool:
             dp[j] = dp[j] or dp[j - num]
     
     return dp[target]
-'''
+```
 
 **Phiên bản với giải thích chi tiết:**
 
-'''python
+```python
 def canPartition(nums: list[int]) -> bool:
     """
     Ví dụ với nums = [1,5,11,5]
@@ -156,11 +156,11 @@ def canPartition(nums: list[int]) -> bool:
             dp[j] = dp[j] or dp[j - num]
     
     return dp[target]
-'''
+```
 
 **Phiên bản với set (alternative approach):**
 
-'''python
+```python
 def canPartition(nums: list[int]) -> bool:
     """
     Phiên bản dùng set thay vì mảng DP.
@@ -185,7 +185,7 @@ def canPartition(nums: list[int]) -> bool:
         possible_sums.update(new_sums)
     
     return False
-'''
+```
 
 ## 🧠 Ghi chú
 

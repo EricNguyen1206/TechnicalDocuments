@@ -73,17 +73,8 @@ max_profit = max(max_profit, prices[i] - min_price)
 
 ## 💻 Code minh họa
 
-'''python
+```python
 def maxProfit(prices: list[int]) -> int:
-    """
-    Tìm lợi nhuận tối đa từ việc mua và bán cổ phiếu.
-    
-    Args:
-        prices: Mảng giá cổ phiếu theo từng ngày
-    
-    Returns:
-        Lợi nhuận tối đa
-    """
     if len(prices) < 2:
         return 0
     
@@ -104,24 +95,12 @@ def maxProfit(prices: list[int]) -> int:
         min_price = min(min_price, prices[i])
     
     return max_profit
-'''
+```
 
 **Phiên bản với giải thích chi tiết:**
 
-'''python
+```python
 def maxProfit(prices: list[int]) -> int:
-    """
-    Ví dụ với prices = [7,1,5,3,6,4]
-    
-    i=0: min_price=7, max_profit=0
-    i=1: min_price=1 (cập nhật), max_profit=0 (1-7=-6, không tốt hơn)
-    i=2: min_price=1, max_profit=4 (5-1=4)
-    i=3: min_price=1, max_profit=4 (3-1=2, không tốt hơn)
-    i=4: min_price=1, max_profit=5 (6-1=5)
-    i=5: min_price=1, max_profit=5 (4-1=3, không tốt hơn)
-    
-    Output: 5
-    """
     if len(prices) < 2:
         return 0
     
@@ -134,11 +113,11 @@ def maxProfit(prices: list[int]) -> int:
         min_price = min(min_price, prices[i])
     
     return max_profit
-'''
+```
 
 **Phiên bản dùng DP (không cần thiết, nhưng để tham khảo):**
 
-'''python
+```python
 def maxProfit(prices: list[int]) -> int:
     """
     Phiên bản dùng DP (không tối ưu, chỉ để tham khảo).
@@ -156,7 +135,7 @@ def maxProfit(prices: list[int]) -> int:
         min_price = min(min_price, prices[i])
     
     return dp[n-1]
-'''
+```
 
 ## 🧠 Ghi chú
 

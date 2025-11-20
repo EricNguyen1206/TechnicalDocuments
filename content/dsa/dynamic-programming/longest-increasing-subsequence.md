@@ -80,17 +80,11 @@ Có hai cách tiếp cận chính:
 
 **Cách 1: DP O(n²) - Dễ hiểu**
 
-'''python
+```python
 def lengthOfLIS(nums: list[int]) -> int:
     """
     Tìm độ dài của dãy con tăng dài nhất.
     Sử dụng DP O(n²).
-    
-    Args:
-        nums: Mảng số nguyên
-    
-    Returns:
-        Độ dài của LIS
     """
     n = len(nums)
     if n == 0:
@@ -108,11 +102,11 @@ def lengthOfLIS(nums: list[int]) -> int:
                 dp[i] = max(dp[i], dp[j] + 1)
     
     return max(dp)
-'''
+```
 
 **Cách 2: Binary Search O(n log n) - Tối ưu (khuyến nghị)**
 
-'''python
+```python
 import bisect
 
 def lengthOfLIS(nums: list[int]) -> int:
@@ -141,11 +135,11 @@ def lengthOfLIS(nums: list[int]) -> int:
             tails[left] = num
     
     return len(tails)
-'''
+```
 
 **Phiên bản tự implement binary search:**
 
-'''python
+```python
 def lengthOfLIS(nums: list[int]) -> int:
     """
     Tự implement binary search.
@@ -170,7 +164,7 @@ def lengthOfLIS(nums: list[int]) -> int:
             tails[left] = num
     
     return len(tails)
-'''
+```
 
 ## 🧠 Ghi chú
 

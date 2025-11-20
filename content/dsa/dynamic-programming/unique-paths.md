@@ -82,7 +82,7 @@ dp[i][j] = dp[i-1][j] + dp[i][j-1]
 
 **Cách 1: DP 2D (dễ hiểu)**
 
-'''python
+```python
 def uniquePaths(m: int, n: int) -> int:
     """
     Tính số đường đi duy nhất từ góc trên trái đến góc dưới phải.
@@ -112,11 +112,11 @@ def uniquePaths(m: int, n: int) -> int:
             dp[i][j] = dp[i-1][j] + dp[i][j-1]
     
     return dp[m-1][n-1]
-'''
+```
 
 **Cách 2: Tối ưu bộ nhớ (khuyến nghị)**
 
-'''python
+```python
 def uniquePaths(m: int, n: int) -> int:
     """
     Tối ưu bộ nhớ: chỉ dùng O(n) space.
@@ -133,11 +133,11 @@ def uniquePaths(m: int, n: int) -> int:
         prev = curr
     
     return prev[n-1]
-'''
+```
 
 **Cách 3: Dùng công thức toán học (tổ hợp)**
 
-'''python
+```python
 import math
 
 def uniquePaths(m: int, n: int) -> int:
@@ -146,7 +146,7 @@ def uniquePaths(m: int, n: int) -> int:
     Số cách chọn m-1 bước "xuống" trong tổng số m+n-2 bước.
     """
     return math.comb(m + n - 2, m - 1)
-'''
+```
 
 **Giải thích công thức toán học:**
 - Để đi từ (0,0) đến (m-1, n-1), cần:

@@ -80,17 +80,11 @@ min_product[i] = min(nums[i], max_product[i-1] * nums[i], min_product[i-1] * num
 
 ## 💻 Code minh họa
 
-'''python
+```python
 def maxProduct(nums: list[int]) -> int:
     """
     Tìm tích lớn nhất của dãy con liên tiếp.
     Sử dụng DP với theo dõi cả max và min.
-    
-    Args:
-        nums: Mảng số nguyên
-    
-    Returns:
-        Tích lớn nhất của dãy con liên tiếp
     """
     if not nums:
         return 0
@@ -116,11 +110,11 @@ def maxProduct(nums: list[int]) -> int:
         result = max(result, max_product)
     
     return result
-'''
+```
 
 **Phiên bản không đổi chỗ (tính cả 3 giá trị):**
 
-'''python
+```python
 def maxProduct(nums: list[int]) -> int:
     """
     Phiên bản tính cả 3 giá trị và lấy max/min.
@@ -143,11 +137,11 @@ def maxProduct(nums: list[int]) -> int:
         result = max(result, max_product)
     
     return result
-'''
+```
 
 **Phiên bản với giải thích chi tiết:**
 
-'''python
+```python
 def maxProduct(nums: list[int]) -> int:
     """
     Ví dụ với nums = [2,3,-2,4]
@@ -188,7 +182,7 @@ def maxProduct(nums: list[int]) -> int:
         result = max(result, max_product)
     
     return result
-'''
+```
 
 ## 🧠 Ghi chú
 

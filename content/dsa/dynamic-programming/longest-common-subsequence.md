@@ -78,18 +78,11 @@ Cho hai chuỗi `text1` và `text2`, trả về độ dài của dãy con chung 
 
 **Cách 1: DP 2D (dễ hiểu nhất)**
 
-'''python
+```python
 def longestCommonSubsequence(text1: str, text2: str) -> int:
     """
     Tìm độ dài của dãy con chung dài nhất.
     Sử dụng DP 2D.
-    
-    Args:
-        text1: Chuỗi thứ nhất
-        text2: Chuỗi thứ hai
-    
-    Returns:
-        Độ dài của LCS
     """
     m, n = len(text1), len(text2)
     
@@ -107,11 +100,11 @@ def longestCommonSubsequence(text1: str, text2: str) -> int:
                 dp[i][j] = max(dp[i-1][j], dp[i][j-1])
     
     return dp[m][n]
-'''
+```
 
 **Cách 2: Tối ưu bộ nhớ (2 mảng 1D)**
 
-'''python
+```python
 def longestCommonSubsequence(text1: str, text2: str) -> int:
     """
     Tối ưu bộ nhớ: chỉ dùng 2 mảng 1D.
@@ -136,11 +129,11 @@ def longestCommonSubsequence(text1: str, text2: str) -> int:
         prev, curr = curr, prev
     
     return prev[m]
-'''
+```
 
 **Phiên bản với giải thích chi tiết:**
 
-'''python
+```python
 def longestCommonSubsequence(text1: str, text2: str) -> int:
     """
     Ví dụ với text1 = "abcde", text2 = "ace"
@@ -170,7 +163,7 @@ def longestCommonSubsequence(text1: str, text2: str) -> int:
                 dp[i][j] = max(dp[i-1][j], dp[i][j-1])
     
     return dp[m][n]
-'''
+```
 
 ## 🧠 Ghi chú
 

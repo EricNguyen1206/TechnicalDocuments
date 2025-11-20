@@ -83,19 +83,8 @@ dp[i] = true nếu tồn tại j < i sao cho:
 
 **Cách 1: DP với tất cả vị trí j (dễ hiểu)**
 
-'''python
+```python
 def wordBreak(s: str, wordDict: list[str]) -> bool:
-    """
-    Kiểm tra xem chuỗi s có thể tách thành các từ trong wordDict không.
-    Sử dụng DP.
-    
-    Args:
-        s: Chuỗi cần kiểm tra
-        wordDict: Danh sách các từ trong từ điển
-    
-    Returns:
-        True nếu có thể tách được, False nếu không
-    """
     n = len(s)
     word_set = set(wordDict)  # Chuyển thành set để tra cứu O(1)
     
@@ -113,11 +102,11 @@ def wordBreak(s: str, wordDict: list[str]) -> bool:
                 break  # Đã tìm thấy, không cần kiểm tra tiếp
     
     return dp[n]
-'''
+```
 
 **Cách 2: Tối ưu - chỉ thử các từ trong wordDict**
 
-'''python
+```python
 def wordBreak(s: str, wordDict: list[str]) -> bool:
     """
     Tối ưu: chỉ thử các từ trong wordDict thay vì tất cả vị trí.
@@ -138,11 +127,11 @@ def wordBreak(s: str, wordDict: list[str]) -> bool:
                     break
     
     return dp[n]
-'''
+```
 
 **Cách 3: Recursion + Memoization**
 
-'''python
+```python
 def wordBreak(s: str, wordDict: list[str]) -> bool:
     """
     Sử dụng recursion với memoization (top-down).
@@ -169,7 +158,7 @@ def wordBreak(s: str, wordDict: list[str]) -> bool:
         return False
     
     return dp(0)
-'''
+```
 
 ## 🧠 Ghi chú
 

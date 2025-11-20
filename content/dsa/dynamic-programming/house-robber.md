@@ -74,17 +74,11 @@ Công thức DP:
 
 **Cách 1: Bottom-up DP với mảng**
 
-'''python
+```python
 def rob(nums: list[int]) -> int:
     """
     Tính số tiền tối đa có thể cướp được.
     Sử dụng bottom-up DP.
-    
-    Args:
-        nums: Mảng số tiền ở mỗi ngôi nhà
-    
-    Returns:
-        Số tiền tối đa có thể cướp được
     """
     n = len(nums)
     
@@ -105,11 +99,11 @@ def rob(nums: list[int]) -> int:
         dp[i] = max(dp[i-1], dp[i-2] + nums[i])
     
     return dp[n-1]
-'''
+```
 
 **Cách 2: Space-optimized (tối ưu nhất - khuyến nghị)**
 
-'''python
+```python
 def rob(nums: list[int]) -> int:
     """
     Phiên bản tối ưu bộ nhớ: chỉ dùng O(1) space.
@@ -129,11 +123,11 @@ def rob(nums: list[int]) -> int:
         prev2, prev1 = prev1, curr
     
     return prev1 if n > 1 else prev2
-'''
+```
 
 **Cách 3: Recursion + Memoization**
 
-'''python
+```python
 def rob(nums: list[int]) -> int:
     """
     Sử dụng recursion với memoization.
@@ -150,7 +144,7 @@ def rob(nums: list[int]) -> int:
         return memo[i]
     
     return dp(len(nums) - 1)
-'''
+```
 
 ## 🧠 Ghi chú
 

@@ -76,19 +76,8 @@ dp[i] = min(dp[i], dp[i-coin] + 1) for each coin in coins
 
 ## 💻 Code minh họa
 
-'''python
+```python
 def coinChange(coins: list[int], amount: int) -> int:
-    """
-    Tìm số xu nhỏ nhất để tạo ra amount.
-    Sử dụng bottom-up DP.
-    
-    Args:
-        coins: Mảng các loại tiền xu
-        amount: Số tiền cần đổi
-    
-    Returns:
-        Số xu nhỏ nhất, hoặc -1 nếu không thể tạo được
-    """
     # Khởi tạo DP: dp[i] = số xu nhỏ nhất để tạo ra i
     # Dùng amount + 1 làm giá trị "vô cùng"
     dp = [amount + 1] * (amount + 1)
@@ -108,11 +97,11 @@ def coinChange(coins: list[int], amount: int) -> int:
         return -1
     
     return dp[amount]
-'''
+```
 
 **Phiên bản với giải thích chi tiết:**
 
-'''python
+```python
 def coinChange(coins: list[int], amount: int) -> int:
     """
     Ví dụ với coins = [1,2,5], amount = 11
@@ -142,11 +131,11 @@ def coinChange(coins: list[int], amount: int) -> int:
                 dp[i] = min(dp[i], dp[i - coin] + 1)
     
     return dp[amount] if dp[amount] != amount + 1 else -1
-'''
+```
 
 **Phiên bản với recursion + memoization:**
 
-'''python
+```python
 def coinChange(coins: list[int], amount: int) -> int:
     """
     Sử dụng recursion với memoization (top-down).
@@ -172,7 +161,7 @@ def coinChange(coins: list[int], amount: int) -> int:
     
     result = dp(amount)
     return result if result != float('inf') else -1
-'''
+```
 
 ## 🧠 Ghi chú
 
