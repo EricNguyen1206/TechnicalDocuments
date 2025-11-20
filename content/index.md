@@ -11,10 +11,9 @@ Dev Docs là một tài liệu kỹ thuật được thiết kế để:
 
 ## Nội dung
 
-- [[git-introduction]] - Tìm hiểu về Git
-- [[docker-basics]] - Hướng dẫn cơ bản về Docker
-- [[next-steps]] - Bước tiếp theo
+- [DSA](dsa/index.md) - Data Structures & Algorithms
+- [Observability](observability/index.md) - Observability
+- [DevOps](devops/index.md) - DevOps
 
 ## Bắt đầu
-
-Để bắt đầu với Dev Docs, hãy xem [[next-steps|Bước tiếp theo]].
+Để bắt đầu với Dev Docs, hãy xem [DSA](dsa/index.md).

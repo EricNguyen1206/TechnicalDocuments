@@ -81,9 +81,9 @@ def twoSum(nums: list[int], target: int) -> list[int]:
 - **Lưu ý:** Ta lưu giá trị và chỉ số vào hash map, không chỉ lưu giá trị. Điều này quan trọng vì đề bài yêu cầu trả về chỉ số, không phải giá trị.
 - **Cách tiếp cận khác:** Có thể dùng brute force với hai vòng lồng nhau (O(n²)), nhưng không tối ưu.
 - **Liên kết tới các bài liên quan:**
-  - [[contains-duplicate]] - Cũng dùng hash map để kiểm tra sự tồn tại
-  - [[group-anagrams]] - Ứng dụng hash map cho nhóm đối tượng
-  - [[top-k-frequent-elements]] - Hash map kết hợp với sắp xếp
+  - [contains-duplicate](01-contains-duplicate.md) - Cũng dùng hash map để kiểm tra sự tồn tại
+  - [group-anagrams](04-group-anagrams.md) - Ứng dụng hash map cho nhóm đối tượng
+  - [top-k-frequent-elements](05-top-k-frequent-elements.md) - Hash map kết hợp với sắp xếp
 
 ## ✅ Ví dụ minh họa
 

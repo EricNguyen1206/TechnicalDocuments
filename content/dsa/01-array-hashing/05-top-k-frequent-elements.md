@@ -170,9 +170,9 @@ def topKFrequent(nums: list[int], k: int) -> list[int]:
 - **Tại sao dùng Hash Map?** Đếm tần suất là bước đầu tiên và quan trọng nhất, hash map cho phép làm điều này trong O(n)
 - **Lưu ý về độ phức tạp:** Bucket sort có vẻ O(n) nhưng nếu tần suất tối đa rất lớn (gần bằng n), thì độ phức tạp vẫn là O(n) vì số bucket tối đa là n
 - **Liên kết tới các bài liên quan:**
-  - [[contains-duplicate]] - Cũng dùng hash map để đếm tần suất
-  - [[valid-anagram]] - Đếm tần suất ký tự
-  - [[group-anagrams]] - Nhóm dựa trên đặc điểm chung
+  - [contains-duplicate](01-contains-duplicate.md) - Cũng dùng hash map để đếm tần suất
+  - [valid-anagram](02-valid-anagram.md) - Đếm tần suất ký tự
+  - [group-anagrams](04-group-anagrams.md) - Nhóm dựa trên đặc điểm chung
 
 ## ✅ Ví dụ minh họa
 

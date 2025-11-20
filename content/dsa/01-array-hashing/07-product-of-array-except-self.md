@@ -173,8 +173,8 @@ def productExceptSelf(nums: list[int]) -> list[int]:
 - **Tối ưu bộ nhớ:** Cách 2 chỉ dùng O(1) bộ nhớ phụ bằng cách tính prefix và suffix trong cùng mảng kết quả, đây là cách được khuyến nghị
 - **Tại sao O(1) extra space?** Ta chỉ dùng biến `prefix` và `suffix`, không tạo thêm mảng nào. Mảng `answer` là yêu cầu của bài toán nên không tính vào.
 - **Liên kết tới các bài liên quan:**
-  - [[two-sum]] - Cũng dùng kỹ thuật duyệt mảng một lần
-  - [[longest-consecutive-sequence]] - Kỹ thuật xử lý mảng hiệu quả
+  - [two-sum](03-two-sum.md) - Cũng dùng kỹ thuật duyệt mảng một lần
+  - [longest-consecutive-sequence](08-longest-consecutive-sequence.md) - Kỹ thuật xử lý mảng hiệu quả
 
 ## ✅ Ví dụ minh họa
 

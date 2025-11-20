@@ -116,9 +116,9 @@ def containsDuplicate(nums: list[int]) -> bool:
 - **Khi nào dùng sắp xếp?** Khi bộ nhớ hạn chế và chấp nhận chậm hơn một chút
 - **Khi nào dùng hash set?** Khi cần tối ưu thời gian và có đủ bộ nhớ (đây là cách được khuyến nghị)
 - **Liên kết tới các bài liên quan:**
-  - [[two-sum]] - Cũng dùng hash map/set để kiểm tra sự tồn tại
-  - [[valid-anagram]] - Kiểm tra tần suất xuất hiện
-  - [[group-anagrams]] - Nhóm các phần tử dựa trên đặc điểm chung
+  - [two-sum](03-two-sum.md) - Cũng dùng hash map/set để kiểm tra sự tồn tại
+  - [valid-anagram](02-valid-anagram.md) - Kiểm tra tần suất xuất hiện
+  - [group-anagrams](04-group-anagrams.md) - Nhóm các phần tử dựa trên đặc điểm chung
 
 ## ✅ Ví dụ minh họa
 
