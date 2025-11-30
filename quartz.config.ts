@@ -4,7 +4,7 @@ import * as Plugin from "./quartz/plugins"
 /**
  * Dev Docs Configuration
  *
- * See https://quartz.jzhao.xyz/configuration for more information.
+ * See https://ericnguyen1206.github.io/erion-vault//configuration for more information.
  */
 const config: QuartzConfig = {
   configuration: {
@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "quartz.ericnguyen1206.github.io/erion-vault",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
@@ -29,28 +29,34 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#F5F6F8",
+          lightgray: "#D0D4DB",
+          gray: "#9BA1AC",
+          darkgray: "#4B4F58",
+          dark: "#1E1F25",
+
+          secondary: "#6B3FA0",
+          tertiary: "#2364AA",
+
+          highlight: "rgba(107, 63, 160, 0.12)",
+          textHighlight: "rgba(35, 100, 170, 0.42)",
         },
+
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#0C0F14",
+          lightgray: "#1A1D24",
+          gray: "#AEB7C4",
+          darkgray: "#D9DEE7",
+          dark: "#FFFFFF",
+
+          secondary: "#6B3FA0",
+          tertiary: "#2364AA",
+
+          highlight: "rgba(107, 63, 160, 0.14)",
+          textHighlight: "rgba(35, 100, 170, 0.45)",
         },
-      },
+      }
+
     },
   },
   plugins: {

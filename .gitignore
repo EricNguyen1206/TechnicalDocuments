@@ -10,3 +10,6 @@ copilot/
 private/
 .replit
 replit.nix
+
+/templates
+content/templates

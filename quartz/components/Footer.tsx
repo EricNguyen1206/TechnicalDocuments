@@ -1,6 +1,5 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/footer.scss"
-import { version } from "../../package.json"
 import { i18n } from "../i18n"
 
 interface Options {
@@ -12,15 +11,15 @@ export default ((opts?: Options) => {
     const year = new Date().getFullYear()
     const links = opts?.links ?? []
     return (
-      <footer class={`${displayClass ?? ""}`}>
-        <p>
+      <footer class={`${displayClass ?? ""} dark-oled-footer`}>
+        <p class="primary-text">
           {i18n(cfg.locale).components.footer.createdWith}{" "}
-          <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
+          <a href="https://ericnguyen1206.github.io/erion-vault/" class="accent-link-violet">Erion Vault</a> © {year}
         </p>
-        <ul>
+        <ul class="accent-links-list">
           {Object.entries(links).map(([text, link]) => (
-            <li>
-              <a href={link}>{text}</a>
+            <li key={text}>
+              <a href={link} class="accent-link-blue">{text}</a>
             </li>
           ))}
         </ul>

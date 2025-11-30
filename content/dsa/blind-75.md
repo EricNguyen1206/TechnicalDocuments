@@ -27,14 +27,14 @@ date: 2024-12-19
 
 | Tên bài | LeetCode # | Độ khó | Ghi chú |
 |---------|------------|--------|---------|
-| [[Two Sum]] | 1 | Easy | ✅ |
-| [[Contains Duplicate]] | 217 | Easy | ✅ |
-| [[Valid Anagram]] | 242 | Easy | ✅ |
-| [[Group Anagrams]] | 49 | Medium | ✅ |
-| [[Top K Frequent Elements]] | 347 | Medium | ✅ |
-| [[Product of Array Except Self]] | 238 | Medium | ✅ |
-| [[Encode and Decode Strings]] | 271 | Medium | ✅ |
-| [[Longest Consecutive Sequence]] | 128 | Medium | ✅ |
+| [[Two Sum]] | 1 | Easy | 🔗 [LeetCode](https://leetcode.com/problems/two-sum/) |
+| [[Contains Duplicate]] | 217 | Easy | 🔗 [LeetCode](https://leetcode.com/problems/contains-duplicate/) |
+| [[Valid Anagram]] | 242 | Easy | 🔗 [LeetCode](https://leetcode.com/problems/valid-anagram/) |
+| [[Group Anagrams]] | 49 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/group-anagrams/) |
+| [[Top K Frequent Elements]] | 347 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/top-k-frequent-elements/) |
+| [[Product of Array Except Self]] | 238 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/product-of-array-except-self/) |
+| [[Encode and Decode Strings]] | 271 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/encode-and-decode-strings/) |
+| [[Longest Consecutive Sequence]] | 128 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/longest-consecutive-sequence/) |
 
 ---
 
@@ -42,10 +42,10 @@ date: 2024-12-19
 
 | Tên bài | LeetCode # | Độ khó | Ghi chú |
 |---------|------------|--------|---------|
-| [[Valid Palindrome]] | 125 | Easy | ✅ |
-| [[3Sum]] | 15 | Medium | ✅ |
-| [[Container With Most Water]] | 11 | Medium | ✅ |
-| [[Trapping Rain Water]] | 42 | Hard | ✅ |
+| [Valid Palindrome][../02-two-pointers/01-valid-palindrome] | 125 | Easy | 🔗 [LeetCode](https://leetcode.com/problems/valid-palindrome/) |
+| [3Sum][../02-two-pointers/02-3sum] | 15 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/3sum/) |
+| [Container With Most Water][../02-two-pointers/03-container-with-most-water] | 11 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/container-with-most-water/) |
+| [Trapping Rain Water][../02-two-pointers/04-trapping-rain-water] | 42 | Hard | 🔗 [LeetCode](https://leetcode.com/problems/trapping-rain-water/) |
 
 ---
 
@@ -53,10 +53,10 @@ date: 2024-12-19
 
 | Tên bài | LeetCode # | Độ khó | Ghi chú |
 |---------|------------|--------|---------|
-| [[Best Time to Buy and Sell Stock]] | 121 | Easy | ✅ |
-| [[Longest Substring Without Repeating Characters]] | 3 | Medium | ✅ |
-| [[Longest Repeating Character Replacement]] | 424 | Medium | ✅ |
-| [[Minimum Window Substring]] | 76 | Hard | ✅ |
+| [Best Time to Buy and Sell Stock][../03-sliding-window/01-best-time-to-buy-and-sell-stock] | 121 | Easy | 🔗 [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |
+| [Longest Substring Without Repeating Characters][../03-sliding-window/02-longest-substring-without-repeating-characters] | 3 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |
+| [Longest Repeating Character Replacement][../03-sliding-window/03-longest-repeating-character-replacement] | 424 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/) |
+| [Minimum Window Substring][../03-sliding-window/04-minimum-window-substring] | 76 | Hard | 🔗 [LeetCode](https://leetcode.com/problems/minimum-window-substring/) |
 
 ---
 
@@ -189,17 +189,17 @@ date: 2024-12-19
 
 | Tên bài | LeetCode # | Độ khó | Ghi chú |
 |---------|------------|--------|---------|
-| [[Climbing Stairs]] | 70 | Easy | ✅ |
-| [[House Robber]] | 198 | Medium | ✅ |
+| [Climbing Stairs](./13-1d-dynamic-programming/01-climbing-stairs.md) | 70 | Easy | 🔗 [LeetCode](https://leetcode.com/problems/climbing-stairs/) |
+| [House Robber](./13-1d-dynamic-programming/02-house-robber.md) | 198 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/house-robber/) |
 | House Robber II | 213 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/house-robber-ii/) |
 | Longest Palindromic Substring | 5 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/longest-palindromic-substring/) |
 | Palindromic Substrings | 647 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/palindromic-substrings/) |
 | Decode Ways | 91 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/decode-ways/) |
-| Coin Change | 322 | Medium | ✅ [[Coin Change]] |
-| Maximum Product Subarray | 152 | Medium | ✅ [[Maximum Product Subarray]] |
-| Word Break | 139 | Medium | ✅ [[Word Break]] |
-| Longest Increasing Subsequence | 300 | Medium | ✅ [[Longest Increasing Subsequence]] |
-| Partition Equal Subset Sum | 416 | Medium | ✅ [[Partition Equal Subset Sum]] |
+| [Coin Change](./13-1d-dynamic-programming/07-coin-change.md) | 322 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/coin-change/) |
+| [Maximum Product Subarray](./13-1d-dynamic-programming/08-maximum-product-subarray.md) | 152 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/maximum-product-subarray/) |
+| [Word Break](./13-1d-dynamic-programming/09-word-break.md) | 139 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/word-break/) |
+| [Longest Increasing Subsequence](./13-1d-dynamic-programming/10-longest-increasing-subsequence.md) | 300 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/longest-increasing-subsequence/) |
+| [Partition Equal Subset Sum](./13-1d-dynamic-programming/11-partition-equal-subset-sum.md) | 416 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/partition-equal-subset-sum/) |
 
 ---
 
@@ -207,8 +207,8 @@ date: 2024-12-19
 
 | Tên bài | LeetCode # | Độ khó | Ghi chú |
 |---------|------------|--------|---------|
-| [[Unique Paths]] | 62 | Medium | ✅ |
-| Longest Common Subsequence | 1143 | Medium | ✅ [[Longest Common Subsequence]] |
+| [Unique Paths](./14-2d-dynamic-programming/01-unique-paths.md) | 62 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/unique-paths/) |
+| [Longest Common Subsequence](./14-2d-dynamic-programming/02-longest-common-subsequence.md) | 1143 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/longest-common-subsequence/) |
 | Best Time to Buy and Sell Stock With Cooldown | 309 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) |
 | Coin Change II | 518 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/coin-change-ii/) |
 | Target Sum | 494 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/target-sum/) |
@@ -275,18 +275,6 @@ date: 2024-12-19
 | Sum of Two Integers | 371 | Medium | 🔗 [LeetCode](https://leetcode.com/problems/sum-of-two-integers/) |
 
 ---
-
-## 📊 Thống kê
-
-- **Tổng số bài:** 75
-- **Đã có ghi chú:** 29 bài
-- **Chưa có ghi chú:** 46 bài
-
-### Phân bố theo topic đã có ghi chú:
-- **Array & Hashing:** 8 bài ✅
-- **Two Pointers:** 4 bài ✅
-- **Sliding Window:** 4 bài ✅ (bao gồm Best Time to Buy and Sell Stock)
-- **Dynamic Programming:** 10 bài ✅
 
 ### Phân bố theo độ khó:
 - **Easy:** ~25 bài
