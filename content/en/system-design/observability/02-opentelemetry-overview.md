@@ -2,7 +2,7 @@
 title: "Overview of OpenTelemetry"
 date: 2025-11-20
 tags: ["opentelemetry", "tracing", "metrics", "logs", "backend"]
-description: "Giới thiệu OpenTelemetry, các thành phần chính và concepts quan trọng."
+description: "Introduction to OpenTelemetry, core components and important concepts."
 author: "Eric Nguyen"
 layout: "post"
 ---

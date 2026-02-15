@@ -2,7 +2,7 @@
 title: "Logging & Sending Logs to Loki"
 date: 2025-11-20
 tags: ["logging", "pino", "loki", "express", "observability"]
-description: "Cài đặt Pino logger, structured logging và gửi log tới Loki với ví dụ Express.js."
+description: "Setting up Pino logger, structured logging and sending logs to Loki with Express.js examples."
 author: "Eric Nguyen"
 layout: "post"
 ---

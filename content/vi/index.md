@@ -5,6 +5,7 @@ Chào mừng đến với Dev Docs - tài liệu kỹ thuật về development, 
 ## Giới thiệu
 
 Dev Docs là một tài liệu kỹ thuật được thiết kế để:
+
 - Chia sẻ kiến thức về development
 - Tạo documentation dễ tiếp cận
 - Cung cấp hướng dẫn và best practices
@@ -12,8 +13,7 @@ Dev Docs là một tài liệu kỹ thuật được thiết kế để:
 ## Nội dung
 
 - [DSA](dsa/blind-75.md) - Data Structures & Algorithms
-- [Observability](observability/index.md) - Observability
-- [DevOps](devops/index.md) - DevOps
+- [System Design](system-design/database/index.md) - System Design (Database, DevOps, Observability)
 - [Frontend](frontend/Reactjs/react-hooks.md) - Frontend Development
 
 ## Bắt đầu

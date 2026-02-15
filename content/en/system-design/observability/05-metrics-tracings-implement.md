@@ -2,7 +2,7 @@
 title: "Metrics & Distributed Tracing with Express.js"
 date: 2025-11-20
 tags: ["metrics", "tracing", "prometheus", "mimir", "opentelemetry", "express"]
-description: "Tạo metrics endpoint và distributed tracing trong Express.js với Prometheus/Mimir và OpenTelemetry."
+description: "Creating metrics endpoints and distributed tracing in Express.js with Prometheus/Mimir and OpenTelemetry."
 author: "Eric Nguyen"
 layout: "post"
 ---

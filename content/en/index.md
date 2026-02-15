@@ -5,6 +5,7 @@ Welcome to Dev Docs - technical documentation about development, tools, and best
 ## Introduction
 
 Dev Docs is a technical documentation designed to:
+
 - Share knowledge about development
 - Create easily accessible documentation
 - Provide guides and best practices
@@ -12,8 +13,7 @@ Dev Docs is a technical documentation designed to:
 ## Contents
 
 - [DSA](dsa/blind-75.md) - Data Structures & Algorithms
-- [Observability](observability/index.md) - Observability
-- [DevOps](devops/index.md) - DevOps
+- [System Design](system-design/database/index.md) - System Design (Database, DevOps, Observability)
 - [Frontend](frontend/Reactjs/react-hooks.md) - Frontend Development
 
 ## Getting Started

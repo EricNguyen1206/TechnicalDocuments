@@ -2,7 +2,7 @@
 title: "Combining Logs, Metrics, Traces + Patterns & Case Study"
 date: 2025-11-20
 tags: ["logs", "metrics", "tracing", "patterns", "case-study", "express", "opentelemetry", "LGTM"]
-description: "Best practices kết hợp LMT, microservices patterns, pitfalls và ví dụ một app Express.js áp dụng full OTel + LGTM stack."
+description: "Best practices combining LMT, microservices patterns, pitfalls and an example Express.js app implementing full OTel + LGTM stack."
 author: "Eric Nguyen"
 layout: "post"
 ---

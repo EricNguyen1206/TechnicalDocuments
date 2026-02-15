@@ -2,7 +2,7 @@
 title: "Introduction to Observability"
 date: 2025-11-20
 tags: ["observability", "logs", "metrics", "traces", "backend"]
-description: "Khái niệm Logs, Metrics, Traces và tầm quan trọng của Observability cho ứng dụng backend hiện đại."
+description: "Concepts of Logs, Metrics, Traces and the importance of Observability for modern backend applications."
 author: "Eric Nguyen"
 layout: "post"
 ---
@@ -32,4 +32,3 @@ layout: "post"
 ## Why Observability Matters
 
 <!-- TODO: Tại sao backend developer cần observability -->
-

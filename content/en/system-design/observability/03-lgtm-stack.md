@@ -2,7 +2,7 @@
 title: "Introduction to LGTM Stack"
 date: 2025-11-20
 tags: ["LGTM", "loki", "tempo", "mimir", "grafana", "observability"]
-description: "Giới thiệu stack LGTM: Loki, Grafana, Tempo, Mimir và vai trò từng thành phần."
+description: "Introduction to the LGTM stack: Loki, Grafana, Tempo, Mimir and the role of each component."
 author: "Eric Nguyen"
 layout: "post"
 ---
